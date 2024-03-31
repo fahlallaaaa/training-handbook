@@ -1,0 +1,16 @@
+# email reminder for participant
+
+Date: 2024-03-31
+
+## Status
+
+Accepted
+
+## Context
+
+เพื่อเตือนและแจ้งข้อมูลเกี่ยวกับ class ให้ participant ได้ทราบ
+
+## Decision
+
+- Template ของ email ในแต่ละ class มาจากการสร้างไฟล์โดย PO เนื่องจากไม่มีการเปลี่ยนแปลงบ่อยครั้งและมี template เดิมอยู่แล้ว
+- การตั้ง schedule ตอน 9.30 น.เช้า โดยจะส่งก่อนเข้าเรียน 5 วัน เนื่องจาก PO อยากให้ผู้เรียนได้รับ email reminder ล่วงหน้าและได้รับตอนที่ participant เริ่มทำงานแล้ว
